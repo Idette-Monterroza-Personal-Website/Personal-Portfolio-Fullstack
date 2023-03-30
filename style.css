@@ -56,8 +56,11 @@ br{
     position: relative;
     top: 30px;
     color: white;
-    background-color: rgb(84, 49, 102);
-    height: 100vh;
+    background-color: rgb(83, 51, 117);
+    height: 100%;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    justify-content: center;
 }
 
 #mid-h2{
@@ -71,7 +74,12 @@ br{
 }
 
 #quote{
- padding-left: 25px;   
+ padding-left: 25px;  
+ padding-top: 25px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 40px;
+ text-align: center;
+ height: 70vh;
 }
 
 /*Mid-Section - PORTFOLIO  */
@@ -81,18 +89,27 @@ br{
 }
 
 .projects{
-    display: inline-flex;
+    display: block;
+    margin-bottom: 30px;
+    background-color:white;
+    color: black;
+    width: 500px;
 }
 
 .project-p{
-
+    margin-left: 15px;
 }
 
+.project-container{
+   margin-bottom: 100px;
+
+}
 /*Mid-Section - About  */
 
 .hobbys{
     display: inline-flex;
     line-height: 20px;
+    height: 200px;
 }
 
 .hobby-icon{
@@ -102,8 +119,12 @@ br{
 
 .hobby-p{
     margin-left: 15px;
+
 }
 
+.ramen{
+    padding-bottom: 50px;
+}
 
 /* Footer - Social Medias */
 
