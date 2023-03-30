@@ -40,13 +40,16 @@ body{
 }
 
 
-/* Links */
+/* Elements */
 
 a{
     text-decoration: none;
 }
 
-/* Mid section - H2, paragraph, quote */
+br{
+
+}
+/* Mid section Home- H2, paragraph, quote */
 /** **/
 
 #mid{
@@ -71,6 +74,37 @@ a{
  padding-left: 25px;   
 }
 
+/*Mid-Section - PORTFOLIO  */
+
+.project-icon{
+    width: 200px;
+}
+
+.projects{
+    display: inline-flex;
+}
+
+.project-p{
+
+}
+
+/*Mid-Section - About  */
+
+.hobbys{
+    display: inline-flex;
+    line-height: 20px;
+}
+
+.hobby-icon{
+    width: 130PX;
+    height: 100PX;
+}
+
+.hobby-p{
+    margin-left: 15px;
+}
+
+
 /* Footer - Social Medias */
 
 footer{
@@ -85,13 +119,14 @@ footer{
 }
 .icons{
     width: 65px;
-
 }
 
 .social-media{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+
 
 /* Media Quieries to adjust screen size */
 
