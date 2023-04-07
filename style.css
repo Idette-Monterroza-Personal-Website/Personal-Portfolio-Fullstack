@@ -31,7 +31,7 @@ body{
 }
 
 #top-name{
-
+    margin: 35px 0px 0px 0px;
 }
 
 
@@ -119,6 +119,22 @@ br{
 
 .ramen{
     padding-bottom: 50px;
+}
+
+/* Contact */
+
+#mid{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 /* Footer - Social Medias */
