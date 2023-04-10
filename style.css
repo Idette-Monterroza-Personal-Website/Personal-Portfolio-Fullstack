@@ -1,8 +1,10 @@
 /* CSS */
 
 body{
-    margin: 0;
+    margin: 50px 0px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-color:rgb(112, 112, 112)
 }
 
 /* Top Section and Nav Bar */
@@ -31,10 +33,17 @@ body{
 }
 
 #top-name{
-    margin: 35px 0px 0px 0px;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    font-weight: 100;
+    margin: 0px 0px 0px 5px;
 }
 
-
+#top-name.contact-h1{
+    margin: 150px 0px 0px 0px;
+    text-align: center;
+}
 /* Elements */
 
 a{
@@ -49,12 +58,11 @@ br{
 
 #mid{
     position: relative;
-    top: 30px;
     color: white;
     background-color: rgb(83, 51, 117);
     height: 100%;
-    margin-bottom: 50px;
-    padding-left: 10px;
+    margin: 0px 0px 50px 0px;
+    padding: 10px 0px 0px 10px;
     justify-content: center;
 }
 
@@ -121,43 +129,42 @@ br{
     padding-bottom: 50px;
 }
 
-/* Contact */
+/* Mid Section - Contact */
 
-#mid{
+#mid.contact-id {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 750px;
     align-items: center;
+
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
 }
 
 /* Footer - Social Medias */
 
 footer{
-    position: fixed;
-    z-index: 1;
-    display: inline-flex;
-    bottom: 0px;
+    position: absolute;
+    bottom: -16px;
     width: 100%;
+    height: 15%;
     justify-content: center;
-    box-shadow: 0px 0px 5px rgb(13, 13, 13);
-    background-color: white;
-}
-.icons{
-    width: 65px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+
 }
 
-.social-media{
-    margin-left: 50px;
-    margin-right: 50px;
+.footer-p{
+    text-align: center;
+    font-size: .8rem;
+    
 }
-
 
 
 /* Media Quieries to adjust screen size */

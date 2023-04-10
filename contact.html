@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="top">
+        <h1 id="top-name"> Idette Monterroza </h1>
         <div id="nav-bar"> <!-- This is the navigation bar  at the top right of the screen-->
             <a href="/index.html"><div class="nav-item"> Home </div></a>
             <a href="/about.html"><div class="nav-item"> About </div></a>
@@ -16,16 +17,25 @@
             <a href="/contact.html"><div class="nav-item"> Contact </div></a>
         </div>
     </div>
-    <div id="mid">
-        <h1 id="top-name"> Idette Monterroza </h1>
+    <div id="mid" class="contact-id">
         <h2> Contact me!</h2>
-        <form action="email-submission">
+        <form action="formsubmission.html">
+            <label for="fname"> First Name: </label>
+            <input type="text" id="name" placeholder="First Name" required>
+            <label for="lname"> Last Name </label>
+            <input type="text" id="lname" placeholder="Last Name" required>
             <label for="email"> Email </label>
-            <input type="email" id="email" placeholder="Email Address"><br/>
+            <input type="email" id="email" placeholder="Email Address" required><br/>
             <label for="email-message"> Mesage: </label>
             <textarea id="email-message" placeholder="Message"></textarea><br/>
             <input id="submit" type="submit" target="_blank">
         </form>
-
     </div>
+    <footer> <!-- The footer which lists all the contact options -->
+       <p class="footer-p">© 2023 Idette Monterroza</p>
+       <p class="footer-p"></p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
 
