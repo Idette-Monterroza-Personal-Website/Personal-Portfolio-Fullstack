@@ -29,8 +29,7 @@ body{
     text-transform: uppercase;
     /* set margin-right to 0 so that sticks to the right
     side of the screen */
-    margin-left: auto; 
-    margin-right: 0;    
+    margin: 10px 0px 0px auto;
 }
 
 .nav-item{
@@ -42,7 +41,7 @@ body{
     width: 100%;
     height: 100%;
     font-weight: 100;
-    margin: 0px 0px 0px 5px;
+    margin: 10px 0px 0px 5px;
 }
 
 #top-name.contact-h1{
@@ -56,6 +55,10 @@ a{
     color: inherit;
 }
 
+.active{
+    border-bottom: solid;
+}
+}
 br{
 
 }
@@ -165,6 +168,12 @@ form{
     flex-direction: column;
 }
 
+#submit:hover{
+    background-color: rgb(137, 157, 189);
+    border-radius: 10px;
+    height: 20px;
+}
+
 /* Footer - Social Medias */
 
 footer{
@@ -197,4 +206,23 @@ textarea{
 
 /* Media Quieries to adjust screen size */
 
-
+@media only screen and (max-width: 900px) {
+    #top{
+        display: inline-flex;
+        background-color: white;
+    }
+    #nav-bar{
+        margin: 20px 0px 0px;
+    }
+    .nav-item{
+        margin-left: 10px;
+        font-size: 1.4rem;
+    }
+    
+    #top-name{
+        font-size: 1.3rem;
+        font-weight: 100;
+        margin: 10px 0px 0px 10px;
+    }
+    
+}
