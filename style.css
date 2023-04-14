@@ -58,11 +58,11 @@ a{
 .active{
     border-bottom: solid;
 }
-}
+
 br{
 
 }
-/* Mid section Home- H2, paragraph, quote */
+/* Mid section About, Index amd Portfolio- H2, paragraph, quote */
 /** **/
 
 #mid{
@@ -73,6 +73,17 @@ br{
     justify-content: center;
     height: 1000px;
 
+}
+
+#mid.mid-index{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+    height: 500px;
+}
+
+#mid.mid-about{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
 }
 
 #mid-h2{
@@ -129,7 +140,8 @@ br{
 .hobbys{
     display: inline-flex;
     line-height: 20px;
-    height: 200px;
+    height: 150px;
+    margin: 0px 10px 0px 10px;
 }
 
 .hobby-icon{
@@ -138,12 +150,13 @@ br{
 }
 
 .hobby-p{
-    margin-left: 15px;
+    margin: 20px 20px 0px 20px;
+
 
 }
 
 .ramen{
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 /* Mid Section - Contact */
@@ -154,7 +167,10 @@ br{
     width: 100%;
     height: 600px;
     align-items: center;
-
+    margin: 0px 0px 0px 0px;
+    padding: 0x 0px 0px 10px;
+    justify-content: center;
+    height: 600px;
 }
 
 label{
@@ -189,6 +205,9 @@ footer{
 
 }
 
+.contact-footer{
+        margin: auto 0px 0px 0px;
+}
 
 input{
     width: 250px;
